@@ -1,0 +1,14 @@
+.header {
+  background: url("/../img/background/back-header-mobile.jpg");
+  background-repeat: no-repeat;
+}
+
+.header__menu-wrapper {
+  min-height: 66px;
+  padding: 22px 20px 21px 20px;
+  background-color: rgba(0,0,0, 0.3);
+}
+
+.header__menu {
+  display: none;
+}

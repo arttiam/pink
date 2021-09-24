@@ -1,0 +1,14 @@
+.application {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 38px;
+}
+
+.application__item--android {
+  margin-top: 7px;
+}
+
+.application__item--microsoft {
+  margin-top: 9px;
+}

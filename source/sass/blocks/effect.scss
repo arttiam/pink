@@ -1,12 +1,12 @@
-.effect {
-  background-image: url("/../img/decorative/effect.png"),
-                    url("/../img/decorative/grey-background.svg");
-  background-position: center bottom -40px, center bottom;
-  background-repeat: no-repeat;
-  background-size: auto, auto 906px;
-  text-align: center;
-  padding-top: 87px;
-  padding-bottom: 325px;
+.effect__wrapper {
+background-image: url("/../img/decorative/effect.png"),
+                  url("/../img/decorative/grey-background.svg");
+background-position: center bottom -40px, center bottom;
+background-repeat: no-repeat;
+background-size: auto, auto 906px;
+text-align: center;
+padding-top: 87px;
+padding-bottom: 325px;
 }
 
 .effect__heading {
@@ -23,6 +23,6 @@
   }
 }
 
-.effect__text {
-  font-weight: 400;
+.effect__effect-time {
+  display: none;
 }

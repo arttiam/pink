@@ -1,0 +1,11 @@
+.slogan {
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+.slogan__text {
+  text-align: center;
+
+  &:not(:last-child) {
+    margin-bottom: 46px;
+  }
+}

@@ -1,5 +1,9 @@
 body {
   display: grid;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
   grid-template-rows: min-content 1fr min-content;
   align-content: start;
   min-height: 100%;
@@ -93,7 +97,7 @@ a {
   box-sizing: border-box;
 }
 
-ul {
+ul,h2,h3,p {
   list-style: none;
   margin: 0;
   padding: 0;

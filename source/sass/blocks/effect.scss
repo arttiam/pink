@@ -1,0 +1,28 @@
+.effect {
+  background-image: url("/../img/decorative/effect.png"),
+                    url("/../img/decorative/grey-background.svg");
+  background-position: center bottom -40px, center bottom;
+  background-repeat: no-repeat;
+  background-size: auto, auto 906px;
+  text-align: center;
+  padding-top: 87px;
+  padding-bottom: 325px;
+}
+
+.effect__heading {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.effect__item {
+  &:not(:last-child) {
+    margin-bottom: 43px;
+  }
+}
+
+.effect__text {
+  font-weight: 400;
+}
